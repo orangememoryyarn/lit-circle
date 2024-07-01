@@ -3,19 +3,23 @@ html {
     display: flex;
     justify-content: center;
     font-family: "Times New Roman", Times, serif;
-    color: ##0d160b;
-    background-color: #fdfffc;
+    background-color: #d72638;
 }
 
 .block {
     display: flex;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid #0d160b;
     border-radius: 5px;
     width: 25vw;
     height: 150px;
+    background-color: whitesmoke;
 
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+#blop {
+    user-select: none;
 }
